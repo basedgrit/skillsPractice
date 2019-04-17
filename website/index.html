@@ -4,9 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
-<style>
-
-</style>
+<script src="script.js"></script>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -21,8 +19,33 @@
     </div>
   </div>
 </div>
+<!--Slideshow-->
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="img/kids1.jpg" alt="Children" style="width:100%">
+    <div class="caption">Caption 1</div>
 
-<!-- Header -->
+  </div>
+  <div class="mySlides fade">
+    <img src="img/kids2.jpg" alt="Children" style="width:100%">
+    <div class="caption">Caption 2</div>
+  </div>
+  <div class="mySlides fade">
+    <img src="img/kids3.jpg" alt="Children" style="width:100%">
+    <div class="caption">Caption 3</div>
+    <!--Arrows-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+</div>
+  <!--Dots for slideshow-->
+<div style="text-align:center">
+  <span class="dots" onclick="currentSlide(1)"></span>
+  <span class="dots" onclick="currentSlide(1)"></span>
+  <span class="dots" onclick="currentSlide(1)"></span>
+</div>
+<!-- Header -
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
   <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
